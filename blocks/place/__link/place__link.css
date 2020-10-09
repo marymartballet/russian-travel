@@ -3,3 +3,6 @@
     display: block;
     margin-top: 12px;
 }
+.place__link:hover {
+    opacity: 0.8;
+}

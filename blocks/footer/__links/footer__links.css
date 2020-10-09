@@ -1,9 +1,11 @@
-@media screen and (max-width: 768px){
+.footer__links{
+    list-style: none;
+    padding: 0 0;
+    margin:0 0;
+    display: flex;
+}
+@media screen and (max-width: 767px) {
     .footer__links {
-        display: flex;
         flex-direction: column;
-        align-items: start;
-        justify-content: space-between;
-        margin-bottom: 32px;
     }
 }

@@ -2,8 +2,21 @@
     margin-right: 18px;
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.96;
 }
 .header__lang-link:last-of-type{
     margin-right: 0;
+}
+.header__lang-link:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 0.92;
+    }
 }
 

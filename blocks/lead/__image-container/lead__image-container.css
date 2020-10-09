@@ -2,21 +2,22 @@
     display: flex;
     flex-direction: column;
     padding-top: 56px;
-    width: calc(100% - 100px*2);
+    width: calc(100% - 148px*2);
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1279px){
     .lead__image-container{
         width: calc(100% - 48px*2);
     }
 
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
     .lead__image-container{
         width: 100%;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .lead__image-container{
         padding-top: 40px;
     }

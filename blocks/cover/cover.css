@@ -1,0 +1,10 @@
+.cover{
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    text-decoration: none;
+    color: #FFFFFF;
+    z-index: 0;
+    display: flex;
+    max-width: 1184px;
+    min-height: 740px;
+}

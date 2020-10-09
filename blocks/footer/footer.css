@@ -2,16 +2,23 @@
     display: flex;
     justify-content: space-between;
     align-items:flex-end;
-    min-width: 92%;
-    max-width: 1184px;
-    min-height: 52px;
-    margin: 92px auto 24px auto;
+    width: calc(100% - 48px*2);
+    margin: 0 auto;
+    padding-bottom: 24px;
+    padding-top: 92px;
+}
+@media screen and (max-width: 1024px){
+    .footer{
+        width: calc(100% - 24px*2);
+        padding-top: 80px;
+    }
 }
 @media screen and (max-width: 768px){
     .footer {
+        width: calc(100% - 24px*2);
+        padding-top: 64px;
         flex-direction: column;
         align-items: start;
         justify-content: space-between;
-        margin-bottom: 32px;
     }
 }

@@ -1,4 +1,4 @@
-.place__website{
+.place__website {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -6,8 +6,8 @@
     letter-spacing: 0em;
     align-self: end;
 }
-@media screen and (max-width: 767px){
-    .place__website{
+@media screen and (max-width: 767px) {
+    .place__website {
         display: none;
     }
 }

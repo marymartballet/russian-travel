@@ -1,4 +1,4 @@
-.header__lang-link{
+.header__lang-link {
     margin-right: 18px;
     color: #FFFFFF;
     text-decoration: none;
@@ -7,7 +7,7 @@
     font-weight: 400;
     line-height: 0.96;
 }
-.header__lang-link:last-of-type{
+.header__lang-link:last-of-type {
     margin-right: 0;
 }
 .header__lang-link:hover{

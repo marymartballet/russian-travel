@@ -1,4 +1,4 @@
-.lead__image-container{
+.lead__image-container {
     display: flex;
     flex-direction: column;
     padding-top: 56px;
@@ -6,19 +6,19 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1279px){
-    .lead__image-container{
+@media screen and (max-width: 1279px) {
+    .lead__image-container {
         width: calc(100% - 48px*2);
     }
 
 }
-@media screen and (max-width: 1023px){
-    .lead__image-container{
+@media screen and (max-width: 1023px) {
+    .lead__image-container {
         width: 100%;
     }
 }
-@media screen and (max-width: 767px){
-    .lead__image-container{
+@media screen and (max-width: 767px) {
+    .lead__image-container {
         padding-top: 40px;
     }
 }
